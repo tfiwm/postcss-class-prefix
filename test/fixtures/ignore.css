@@ -21,3 +21,39 @@
 .no-fontface .Component {
   font-size: 12px;
 }
+
+element.no-flexbox {
+    color: white;
+}
+
+element .no-flexbox {
+    color: white;
+}
+
+.no-flexbox element .Component {
+    color: white;
+}
+
+.no-flexbox element.Component {
+    color: white;
+}
+
+.no-flexbox.Component {
+    color: white;
+}
+
+.no-flexbox:not(.Component) {
+    color: white;
+}
+
+.no-flexbox>.Component {
+    color: white;
+}
+
+*[class^="no-flexbox"] {
+    color: white;
+}
+
+*[class^="no-flexbox"] *[class^="no-flexbox"] *[class^="Component"] {
+    color: white;
+}

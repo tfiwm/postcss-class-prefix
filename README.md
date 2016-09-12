@@ -10,6 +10,7 @@ __Example input__
 .Component { /* ... */ }
 .Component--modifier { /* ... */ }
 .Component-descendent { /* ... */ }
+tag .Component-descendent { /* ... */ }
 ```
 
 __Example output__
@@ -18,6 +19,7 @@ __Example output__
 .pfx-Component { /* ... */ }
 .pfx-Component--modifier { /* ... */ }
 .pfx-Component-descendent { /* ... */ }
+tag .pfx-Component-descendent { /* ... */ }
 ```
 
 
